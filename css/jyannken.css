@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans JP";
+    /* 背景画像の写真を設定 */
+    /* 背景画像のサイズと位置を設定 */
+    /* 背景をぼかす */
+}
+
+h1 {
+    color: red;
+}
+
+.title_section {
+    font-size: "32pt";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.ritu_round {*/
+/*Math.round("ritu_round");*/
+/*}*/
+
+body {
+    margin: 0;
+    font-family: "Noto Sans JP";
+    background: url("../images/hand_haikei.JPG");
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter: blur(10px);*/
+}
+
+main {
+    max-width: 480px;
+    height: 100vh;
+    background: rgb(35, 183, 32);
+    color: #dedede;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 3px solid #dedede;
+    color: #dedede;
+    font-size: 20px;
+}
+
+button img {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+.button_section {
+    display: flex;
+    justify-content: center;
+    align-items: denter;
+    flex-wrap: wrap;
+}
+
+.class_button_gu {
+    background: #5b40c9;
+}
+
+.class_button_cho {
+    background: #d23426;
+}
+
+.class_button_pa {
+    background: #e5d84f;
+}
+
+
+.result_section {
+    
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 0%;
+}
